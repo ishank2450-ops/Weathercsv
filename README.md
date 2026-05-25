@@ -6,10 +6,9 @@
 This project is an end-to-end data science and environmental analysis pipeline built using Python. It explores a high-frequency global weather dataset to unearth macro-climate patterns, isolate severe environmental anomalies (specifically regarding PM2.5 air pollution), and develop a robust machine learning ensemble for time-series temperature forecasting.
 
 ## Repository Contents
-* `Global_Weather_Analysis_Report.pdf` / `.docx`: The compiled project report containing all visual insights, data methodology, and ML evaluation metrics.
-* `GlobalWeatherRepository.csv`: The core dataset utilized for the analysis (Not included in the repo due to size limits, but can be downloaded [insert data source link if applicable]).
-* `/images`: Visualizations generated during EDA (Spatial distribution, Correlation heatmaps, Model forecasts, Anomaly scatter plots).
-* `analysis_pipeline.py` *(or your Jupyter Notebook name)*: The core script containing the data cleaning, model training, and visualization code.
+* 'Global_Weather_Analysis_Report.pdf': The compiled project report containing all visual insights, data methodology, and ML evaluation metrics.
+* '/images': Visualizations generated during EDA (Spatial distribution, Correlation heatmaps, Model forecasts, Anomaly scatter plots).
+* 'anomaly.py' , 'forcasting.py' , 'uniqueanalysis.py': The core script containing the data cleaning, model training, and visualization code.
 
 ## Dataset Overview
 The dataset comprises **142,288 globally distributed weather records** across 257 unique locations. Key features include continuous meteorological data such as:
@@ -61,5 +60,3 @@ Isolated high-frequency historical data for specific locations (e.g., Kabul) to 
 ## How to Run the Code
 1. Clone this repository: `git clone https://github.com/yourusername/weather-analysis.git`
 2. Ensure you have the required libraries installed:
-   ```bash
-   pip install pandas numpy scikit-learn matplotlib seaborn
