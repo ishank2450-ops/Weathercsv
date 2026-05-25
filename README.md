@@ -7,7 +7,7 @@ This project is an end-to-end data science and environmental analysis pipeline b
 
 ## Repository Contents
 * 'Global_Weather_Analysis_Report.pdf': The compiled project report containing all visual insights, data methodology, and ML evaluation metrics.
-* '/images': Visualizations generated during EDA (Spatial distribution, Correlation heatmaps, Model forecasts, Anomaly scatter plots).
+* 'images': Visualizations generated during EDA (Spatial distribution, Correlation heatmaps, Model forecasts, Anomaly scatter plots).
 * 'anomaly.py' , 'forcasting.py' , 'uniqueanalysis.py': The core script containing the data cleaning, model training, and visualization code.
 
 ## Dataset Overview
