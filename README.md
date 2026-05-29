@@ -58,5 +58,5 @@ Isolated high-frequency historical data for specific locations (e.g., Kabul) to 
 * **Matplotlib & Seaborn** (Data visualization and spatial plotting)
 
 ## How to Run the Code
-1. Clone this repository: `git clone https://github.com/yourusername/weather-analysis.git`
+1. Clone this repository: `git clone https://github.com/ishank2450-ops/weather-analysis.git`
 2. Ensure you have the required libraries installed:
